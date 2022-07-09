@@ -9,9 +9,9 @@
   "name": "Doctor Strange",
   "photoUrl": "https://i.pinimg.com/564x/1a/33/29/1a3329a57b88c0326820eca80df2a4cb.jpg",
   "schoolId": 0,
-  "schoolName": "",
-  "schoolVerified": false,
-  "shareStatistics": false,
+  "schoolName": "Test School Name",
+  "schoolVerified": true,
+  "shareStatistics": true,
   "strandGrades": {
     "9,12,11": 0,
     "9,12,12": 0.2
