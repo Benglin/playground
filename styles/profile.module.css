@@ -1,17 +1,21 @@
 html.html {
-    background:#575A5E;
+    background:#424448;
 }
 .secondaryProfileDesc {
     margin-left:5px;
     margin-top:5px;
     margin-bottom:5px;
 }
+
+/*  */
 .body {
-    background:#575A5E;
+    background:#424448;
     /* color:white; */
     padding:20px;
     min-height: 100vh;
 }
+
+
 img.profilePhoto {
     border-radius:500px;
     /* border:2px solid white; */
@@ -21,6 +25,8 @@ img.profilePhoto {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.334);
     /* transform: translate(0px,-100px); */
 }
+
+/*  */
 header.header {
     display:flex;
     flex-direction:column;
@@ -32,13 +38,18 @@ header.header {
     border-radius: 5px 5px 0px 0px;
     padding:30px;
 }
+
+/*  */
 main.main {
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     padding:2%;
+    overflow-y: auto;
+    height: 34vh;
 }
+/*  */
 .mainCard {
     background: #ffffff;
     margin:10vh 5vw;
